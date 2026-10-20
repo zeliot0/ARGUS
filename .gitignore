@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+
+# Generated scan output — contains unredacted indicator values from a real run.
+# Never commit these.
+/reports/
+/last-scan.json
+/report.json
+
+.venv/
+venv/
+*.egg-info/
+build/
+dist/

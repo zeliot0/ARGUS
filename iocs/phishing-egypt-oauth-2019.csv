@@ -1,0 +1,44 @@
+# ARGUS indicator feed: Egypt OAuth phishing domains (2019). Phishing only, not spyware
+# as-of: 2026-10-20 (read from AmnestyTech/investigations commit 3d8f248)
+# Source: Amnesty International Security Lab, https://github.com/AmnestyTech/investigations
+# Licence: CC-BY 2.0 (https://creativecommons.org/licenses/by/2.0/). Attribution: Amnesty International. Indicators are
+#   published as-is; ARGUS only converts the format and drops email addresses, file paths, process names and package names.
+# tier "confirmed": exact file hashes. tier "lead": domains and IP addresses. Old infrastructure is often expired or
+#   re-registered by someone else, so a hit is a lead to investigate, never proof of infection.
+# These lists were built for investigating phones. ARGUS checks the PC side (browser history, DNS, hosts, connections, files).
+# This list is phishing infrastructure, not spyware. It is switched off by default in ARGUS.
+kind,value,tier,confidence,source
+domain,account-login.site,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2019-03-06_egypt_oauth/domains.txt (CC-BY)"
+domain,adminmail.online,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2019-03-06_egypt_oauth/domains.txt (CC-BY)"
+domain,email-secure.online,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2019-03-06_egypt_oauth/domains.txt (CC-BY)"
+domain,login-acc.email,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2019-03-06_egypt_oauth/domains.txt (CC-BY)"
+domain,login-network.space,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2019-03-06_egypt_oauth/domains.txt (CC-BY)"
+domain,login-service.email,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2019-03-06_egypt_oauth/domains.txt (CC-BY)"
+domain,login-service.online,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2019-03-06_egypt_oauth/domains.txt (CC-BY)"
+domain,m4r3zb2ci0-noreply.pw,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2019-03-06_egypt_oauth/domains.txt (CC-BY)"
+domain,mail-log.pw,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2019-03-06_egypt_oauth/domains.txt (CC-BY)"
+domain,mail-secure.online,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2019-03-06_egypt_oauth/domains.txt (CC-BY)"
+domain,mail-secure.tech,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2019-03-06_egypt_oauth/domains.txt (CC-BY)"
+domain,mail-verify.live,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2019-03-06_egypt_oauth/domains.txt (CC-BY)"
+domain,maillogin.pw,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2019-03-06_egypt_oauth/domains.txt (CC-BY)"
+domain,mailverify.live,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2019-03-06_egypt_oauth/domains.txt (CC-BY)"
+domain,my-mail-inbox.com,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2019-03-06_egypt_oauth/domains.txt (CC-BY)"
+domain,redirect-secure.pw,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2019-03-06_egypt_oauth/domains.txt (CC-BY)"
+domain,safebrowsing.website,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2019-03-06_egypt_oauth/domains.txt (CC-BY)"
+domain,secure-accounts.online,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2019-03-06_egypt_oauth/domains.txt (CC-BY)"
+domain,secure-conn.pw,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2019-03-06_egypt_oauth/domains.txt (CC-BY)"
+domain,secure-email.site,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2019-03-06_egypt_oauth/domains.txt (CC-BY)"
+domain,secure-emails.online,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2019-03-06_egypt_oauth/domains.txt (CC-BY)"
+domain,secure-login.services,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2019-03-06_egypt_oauth/domains.txt (CC-BY)"
+domain,service-login.online,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2019-03-06_egypt_oauth/domains.txt (CC-BY)"
+domain,signin-aouth2.pw,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2019-03-06_egypt_oauth/domains.txt (CC-BY)"
+domain,signin-verify.pw,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2019-03-06_egypt_oauth/domains.txt (CC-BY)"
+domain,user-members.pro,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2019-03-06_egypt_oauth/domains.txt (CC-BY)"
+domain,verify-mail.pro,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2019-03-06_egypt_oauth/domains.txt (CC-BY)"
+domain,verifymail.live,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2019-03-06_egypt_oauth/domains.txt (CC-BY)"
+domain,vers.pw,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2019-03-06_egypt_oauth/domains.txt (CC-BY)"
+domain,weblive.pw,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2019-03-06_egypt_oauth/domains.txt (CC-BY)"
+domain,whatsuppweb.me,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2019-03-06_egypt_oauth/domains.txt (CC-BY)"
+domain,wi-fi.email,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2019-03-06_egypt_oauth/domains.txt (CC-BY)"
+domain,www.secure-email.site,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2019-03-06_egypt_oauth/domains.txt (CC-BY)"
+domain,xbz.pw,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2019-03-06_egypt_oauth/domains.txt (CC-BY)"

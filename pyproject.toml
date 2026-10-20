@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "argus-scanner"
+version = "0.8.2"
+description = "Read-only, offline indicator scanner for Windows, macOS and Linux"
+requires-python = ">=3.8"
+readme = "README.md"
+authors = [{name = "Salim"}]
+dependencies = []
+
+[project.scripts]
+argus = "scanner.menu:main"
+
+[tool.setuptools]
+packages = ["scanner"]
+
+[tool.setuptools.package-data]
+scanner = []

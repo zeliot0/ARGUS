@@ -1,0 +1,7 @@
+# PLACEHOLDER INDICATORS. These are fake values used to test the pipeline. They are not real IOCs.
+# Replace this file with a sourced feed before relying on any result.
+kind,value,tier,confidence,source
+domain,tracker.example.invalid,confirmed,high,placeholder for testing
+ip,198.51.100.23,confirmed,high,placeholder for testing
+sha256,0000000000000000000000000000000000000000000000000000000000000000,confirmed,high,placeholder for testing
+filename,tracker-helper,confirmed,high,placeholder for testing

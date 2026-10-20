@@ -1,0 +1,13 @@
+# ARGUS indicator feed: Evolving phishing domains (2019). Phishing only, not spyware
+# as-of: 2026-10-20 (read from AmnestyTech/investigations commit 3d8f248)
+# Source: Amnesty International Security Lab, https://github.com/AmnestyTech/investigations
+# Licence: CC-BY 2.0 (https://creativecommons.org/licenses/by/2.0/). Attribution: Amnesty International. Indicators are
+#   published as-is; ARGUS only converts the format and drops email addresses, file paths, process names and package names.
+# tier "confirmed": exact file hashes. tier "lead": domains and IP addresses. Old infrastructure is often expired or
+#   re-registered by someone else, so a hit is a lead to investigate, never proof of infection.
+# These lists were built for investigating phones. ARGUS checks the PC side (browser history, DNS, hosts, connections, files).
+# This list is phishing infrastructure, not spyware. It is switched off by default in ARGUS.
+kind,value,tier,confidence,source
+domain,srf-goolge.site,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2019-08-16_evolving_phishing/domains.txt (CC-BY)"
+domain,gmailusercontent.site,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2019-08-16_evolving_phishing/domains.txt (CC-BY)"
+domain,protect-outlook.com,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2019-08-16_evolving_phishing/domains.txt (CC-BY)"

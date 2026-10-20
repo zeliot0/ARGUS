@@ -1,0 +1,20 @@
+# ARGUS indicator feed: NoviSpy, Serbia (2024)
+# as-of: 2026-10-20 (read from AmnestyTech/investigations commit 3d8f248)
+# Source: Amnesty International Security Lab, https://github.com/AmnestyTech/investigations
+# Licence: CC-BY 2.0 (https://creativecommons.org/licenses/by/2.0/). Attribution: Amnesty International. Indicators are
+#   published as-is; ARGUS only converts the format and drops email addresses, file paths, process names and package names.
+# tier "confirmed": exact file hashes. tier "lead": domains and IP addresses. Old infrastructure is often expired or
+#   re-registered by someone else, so a hit is a lead to investigate, never proof of infection.
+# These lists were built for investigating phones. ARGUS checks the PC side (browser history, DNS, hosts, connections, files).
+kind,value,tier,confidence,source
+ip,195.178.51.251,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2024-12-16_serbia_novispy/domains.txt (CC-BY)"
+ip,79.101.110.108,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2024-12-16_serbia_novispy/domains.txt (CC-BY)"
+ip,188.93.127.34,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2024-12-16_serbia_novispy/domains.txt (CC-BY)"
+ip,178.220.122.57,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2024-12-16_serbia_novispy/domains.txt (CC-BY)"
+ip,94.140.125.174,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2024-12-16_serbia_novispy/domains.txt (CC-BY)"
+ip,185.86.148.174,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2024-12-16_serbia_novispy/domains.txt (CC-BY)"
+ip,176.223.111.131,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2024-12-16_serbia_novispy/domains.txt (CC-BY)"
+sha256,54ee2c4f3e2396b6f92def135d68abd35d63ca7f9c304633a36f705ba4728cb7,confirmed,high,"Amnesty International Security Lab, AmnestyTech/investigations/2024-12-16_serbia_novispy/sha256.txt (CC-BY)"
+sha256,d55e492d5fce87898e065572a5553d1ac1389cd12bf3d28cabc1218cb29780af,confirmed,high,"Amnesty International Security Lab, AmnestyTech/investigations/2024-12-16_serbia_novispy/sha256.txt (CC-BY)"
+sha256,99673ce7f10e938ed73ed4a99930fbd6499983caa7a2c1b9e3f0e0bb0a5df602,confirmed,high,"Amnesty International Security Lab, AmnestyTech/investigations/2024-12-16_serbia_novispy/sha256.txt (CC-BY)"
+sha256,087fc1217c897033425fe7f1f12b913cd48918c875e99c25bdb9e1ffcf80f57e,confirmed,high,"Amnesty International Security Lab, AmnestyTech/investigations/2024-12-16_serbia_novispy/sha256.txt (CC-BY)"

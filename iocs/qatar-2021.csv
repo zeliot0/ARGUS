@@ -1,0 +1,15 @@
+# ARGUS indicator feed: Qatar targeted-attack campaign (2021)
+# as-of: 2026-10-20 (read from AmnestyTech/investigations commit 3d8f248)
+# Source: Amnesty International Security Lab, https://github.com/AmnestyTech/investigations
+# Licence: CC-BY 2.0 (https://creativecommons.org/licenses/by/2.0/). Attribution: Amnesty International. Indicators are
+#   published as-is; ARGUS only converts the format and drops email addresses, file paths, process names and package names.
+# tier "confirmed": exact file hashes. tier "lead": domains and IP addresses. Old infrastructure is often expired or
+#   re-registered by someone else, so a hit is a lead to investigate, never proof of infection.
+# These lists were built for investigating phones. ARGUS checks the PC side (browser history, DNS, hosts, connections, files).
+kind,value,tier,confidence,source
+domain,youl.tube,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2021-05-28_qatar/domains.txt (CC-BY)"
+domain,twittre.co,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2021-05-28_qatar/domains.txt (CC-BY)"
+domain,twitt-er.app,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2021-05-28_qatar/domains.txt (CC-BY)"
+ip,138.197.103.227,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2021-05-28_qatar/ips.txt (CC-BY)"
+ip,128.199.212.166,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2021-05-28_qatar/ips.txt (CC-BY)"
+ip,161.35.100.139,lead,medium,"Amnesty International Security Lab, AmnestyTech/investigations/2021-05-28_qatar/ips.txt (CC-BY)"
