@@ -42,6 +42,28 @@ it checked, what it found, and — just as loudly — what it *couldn't* check.
 ╰──────────────────────────────────────────────────────────────────────────────╯
 ```
 
+## The problem
+
+Researchers publish solid evidence of real spyware and malware campaigns: domains, IPs, file
+hashes used by tools like Pegasus, Predator, FinFisher, DoNot, and plenty of less famous
+malware. That data is public. What's missing is the boring part — actually checking whether
+any of it shows up on a real machine.
+
+Right now that usually means one of:
+
+- **Trusting a closed-source antivirus** to already know about it, with no way to check, while
+  it sends its own telemetry off the machine.
+- **Uploading logs to a third-party cloud service** — a bad idea if you suspect you're the one
+  being watched.
+- **Grepping by hand** across a different registry layout, browser database, and log format on
+  every OS, redone from scratch every time a new campaign gets published.
+- **Paying for incident-response tooling** built for professional responders, when you just
+  want to know if your own laptop shows up in a published IOC list.
+
+ARGUS closes that specific gap: feed it a CSV of known indicators and it tells you, offline and
+in plain language, whether any of it is on this machine — the same way, whether that machine is
+running Windows, macOS, or Linux.
+
 ## Why ARGUS
 
 Most "is my computer infected" tools either phone home, demand an install, or hand you a green
